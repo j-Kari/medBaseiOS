@@ -24,47 +24,53 @@ struct ContentView: View {
     }
     
     public let Regions: [Areas] = [
-        Areas(name: "Asia",
-              NGOs: [NGO(name: "SUGGEST", desc: ":)"),]),
-        Areas(name: "India",
-                    NGOs: [NGO(name: "Project Stree", desc: ":)"),
-                           NGO(name: "The Myna Mahila Foundation", desc: ":)"),
-                           NGO(name: "the Cycle (Sanitation First)", desc: ":)"),
-                           NGO(name: "Binti (India)", desc: ":)"),
-                           NGO(name: "The Desai Foundation (India)", desc: ":)"),]),
-        Areas(name: "Africa",
-                    NGOs: [NGO(name: "The Siyasizana Foundation", desc: ":)"),
-                           NGO(name: "Project Dignity", desc: ":)"),
-                           NGO(name: "Qrate ZA", desc: ":)"),
-                           NGO(name: "The Cora Project", desc: ":)"),
-                           NGO(name: "Dignity Period", desc: ":)"),
-                           NGO(name: "Binti (Africa)", desc: ":)"),
-                           NGO(name: "Sustainable Health Enterprises (SHE)", desc: ":)"),
-                           NGO(name: "Days For Girls", desc: ":)"),]),
-        Areas(name: "North America",
-                    NGOs: [NGO(name: "The Pad Project (International)", desc: ":)"),
-                           NGO(name: "The National Organization for Women (NOW) Foundation", desc: ":)"),
-                           NGO(name: "Alliance for Period Supplies", desc: ":)"),
-                           NGO(name: "Unite for Reproductive & Gender Equity (URGE)", desc: ":)"),
-                           NGO(name: "PERIOD, Inc", desc: ":)"),
-                           NGO(name: "In Our Own Voice: National Black Women's Reproductive Justice Agenda", desc: ":)"),
-                           NGO(name: "The Alliance for Period Supplies", desc: ":)"),
-                           NGO(name: "PERIOD.", desc: ":)"),
-                           NGO(name: "Binti (USA)", desc: ":)"),
-                           NGO(name: "The Desai Foundation (USA)", desc: ":)"),
-                           NGO(name: "601 for Period Equity", desc: ":)"),]),
-        Areas(name: "South America",
-                    NGOs: [NGO(name: "Pink Box Purpose", desc: ":)")]),
-        Areas(name: "Europe",
-                    NGOs: [NGO(name: "Binti (UK)", desc: ":)"),
-                           NGO(name: "Freedom4Girls", desc: ":)"),
-                           NGO(name: "Bloody Good Project (BGP)", desc: ":)"),]),
-        Areas(name: "Australia",
-                    NGOs: [NGO(name: "The Period Project", desc: ":)"),
-                           NGO(name: "Hey Girls Australia", desc: ":)"),
-                           NGO(name: "Share the Dignity", desc: ":)"),]),
+        Areas(name: "COMMONLY MISUNDERSTOOD",
+              NGOs: [NGO(name: "Acute", desc: ":)"),
+                     NGO(name: "Benign", desc: ":)"),
+                     NGO(name: "Malignant", desc: ":)"),
+                     NGO(name: "Blood Swab", desc: ":)"),
+                     NGO(name: "Dialysis", desc: ":)"),
+                     NGO(name: "Remission", desc: ":)"),
+                    ]),
+        Areas(name: "GENERALLY UNKNOWN",
+                    NGOs: [NGO(name: "Angina", desc: ":)"),
+                           NGO(name: "Biopsy", desc: ":)"),
+                           NGO(name: "Blood Culture", desc: ":)"),
+                           NGO(name: "Coronary Bypass", desc: ":)"),
+                           NGO(name: "Edema", desc: ":)"),
+                           NGO(name: "Embolism", desc: ":)"),
+                           NGO(name: "Coronary Bypass", desc: ":)"),
+                           NGO(name: "Occult Blood Screen", desc: ":)"),
+                           NGO(name: "Spinal Tap", desc: ":)"),
+                           ]),
+        Areas(name: "MISC.",
+                    NGOs: [NGO(name: "Appendectomy", desc: ":)"),
+                           NGO(name: "Fusion", desc: ":)"),
+                           NGO(name: "Chronic", desc: ":)"),
+                           NGO(name: "Hysterectomy", desc: ":)"),
+                           NGO(name: "Hypertension", desc: ":)"),
+                           NGO(name: "Hypotension", desc: ":)"),
+                           NGO(name: "Intravaneous", desc: ":)"),
+                           NGO(name: "Intubation", desc: ":)"),
+                           NGO(name: "Lesion", desc: ":)"),
+                           NGO(name: "Lumbar Puncture", desc: ":)"),
+                           NGO(name: "Masectomy", desc: ":)"),
+                           NGO(name: "Myocardial Infarction", desc: ":)"),
+                           NGO(name: "Sepsis", desc: ":)"),
+                           NGO(name: "Thrombosis", desc: ":)"),
+                           NGO(name: "Ultrasound", desc: ":)"),
+                           ]),
     ]
-    
+  /*
+    Mastectomy,
+    Myocardial infarction,
+    Occult blood screen,
+    Remission,
+    Sepsis,
+    Spinal tap,
+    Thrombosis,
+    Ultrasound */
+
     @State private var singleSelection: UUID?
     
     
@@ -72,7 +78,7 @@ struct ContentView: View {
         NavigationView {
             List(selection: $singleSelection) {
                 ForEach(Regions) { region in
-                    Section(header: Text("Major Organizations In \(region.name)")) {
+                    Section(header: Text("TERMS: \(region.name)")) {
                             ForEach(region.NGOs) { organization in
                                 NavigationLink(destination: Details()) {
                                     Text(organization.name)
@@ -82,7 +88,7 @@ struct ContentView: View {
                 }
             }
             .listStyle(.sidebar)
-            .navigationTitle("Organizations")
+            .navigationTitle("Directory")
 
         }
     }
