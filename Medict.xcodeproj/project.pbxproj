@@ -7,20 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F483BA52A4B78F30085FA9D /* SimplyOrganizationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F483BA42A4B78F30085FA9D /* SimplyOrganizationsApp.swift */; };
+		9F1616512ADCAFAB00AB0C31 /* CodableBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1616502ADCAFAB00AB0C31 /* CodableBundle.swift */; };
+		9F1616532ADCB0EC00AB0C31 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1616522ADCB0EC00AB0C31 /* Words.swift */; };
 		9F483BA72A4B78F30085FA9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F483BA62A4B78F30085FA9D /* ContentView.swift */; };
 		9F483BA92A4B78F50085FA9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F483BA82A4B78F50085FA9D /* Assets.xcassets */; };
 		9F483BAC2A4B78F50085FA9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F483BAB2A4B78F50085FA9D /* Preview Assets.xcassets */; };
+		9F65DE672AE1FE030071C7F0 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F65DE662AE1FE030071C7F0 /* RowView.swift */; };
+		9F65DE692AE1FFCA0071C7F0 /* TermListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F65DE682AE1FFCA0071C7F0 /* TermListView.swift */; };
+		9F65DE6B2AE2001E0071C7F0 /* TermDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F65DE6A2AE2001E0071C7F0 /* TermDetail.swift */; };
+		9F7AD93A2ABD045900868BAF /* MedictApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AD9392ABD045900868BAF /* MedictApp.swift */; };
+		9F7AD93C2ABD068600868BAF /* SearchHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AD93B2ABD068600868BAF /* SearchHome.swift */; };
 		9F9B6AB72A4CAABD007F36E6 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B6AB62A4CAABD007F36E6 /* Details.swift */; };
+		9FE0FDDC2ADCAA5200CEC302 /* word.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FE0FDDB2ADCAA5200CEC302 /* word.json */; };
+		9FFFAF872ADCB2240061AE72 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFFAF862ADCB2240061AE72 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9F483BA12A4B78F30085FA9D /* SimplyOrganizations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyOrganizations.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F483BA42A4B78F30085FA9D /* SimplyOrganizationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplyOrganizationsApp.swift; sourceTree = "<group>"; };
+		9F1616502ADCAFAB00AB0C31 /* CodableBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundle.swift; sourceTree = "<group>"; };
+		9F1616522ADCB0EC00AB0C31 /* Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
+		9F483BA12A4B78F30085FA9D /* Medict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F483BA62A4B78F30085FA9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F483BA82A4B78F50085FA9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F483BAB2A4B78F50085FA9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F65DE662AE1FE030071C7F0 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		9F65DE682AE1FFCA0071C7F0 /* TermListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermListView.swift; sourceTree = "<group>"; };
+		9F65DE6A2AE2001E0071C7F0 /* TermDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermDetail.swift; sourceTree = "<group>"; };
+		9F7AD9392ABD045900868BAF /* MedictApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedictApp.swift; sourceTree = "<group>"; };
+		9F7AD93B2ABD068600868BAF /* SearchHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHome.swift; sourceTree = "<group>"; };
 		9F9B6AB62A4CAABD007F36E6 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		9FE0FDDB2ADCAA5200CEC302 /* word.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = word.json; sourceTree = "<group>"; };
+		9FFFAF862ADCB2240061AE72 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +53,7 @@
 		9F483B982A4B78F30085FA9D = {
 			isa = PBXGroup;
 			children = (
-				9F483BA32A4B78F30085FA9D /* SimplyOrganizations */,
+				9F483BA32A4B78F30085FA9D /* Meddict */,
 				9F483BA22A4B78F30085FA9D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,21 +61,26 @@
 		9F483BA22A4B78F30085FA9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F483BA12A4B78F30085FA9D /* SimplyOrganizations.app */,
+				9F483BA12A4B78F30085FA9D /* Medict.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9F483BA32A4B78F30085FA9D /* SimplyOrganizations */ = {
+		9F483BA32A4B78F30085FA9D /* Meddict */ = {
 			isa = PBXGroup;
 			children = (
-				9F483BA42A4B78F30085FA9D /* SimplyOrganizationsApp.swift */,
+				9F7AD9392ABD045900868BAF /* MedictApp.swift */,
 				9F483BA62A4B78F30085FA9D /* ContentView.swift */,
+				9F7AD93B2ABD068600868BAF /* SearchHome.swift */,
 				9F9B6AB62A4CAABD007F36E6 /* Details.swift */,
+				9F65DE662AE1FE030071C7F0 /* RowView.swift */,
+				9F65DE682AE1FFCA0071C7F0 /* TermListView.swift */,
+				9F65DE6A2AE2001E0071C7F0 /* TermDetail.swift */,
+				9FE0FDDA2ADCAA2D00CEC302 /* Data */,
 				9F483BA82A4B78F50085FA9D /* Assets.xcassets */,
 				9F483BAA2A4B78F50085FA9D /* Preview Content */,
 			);
-			path = SimplyOrganizations;
+			path = Meddict;
 			sourceTree = "<group>";
 		};
 		9F483BAA2A4B78F50085FA9D /* Preview Content */ = {
@@ -70,12 +91,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9FE0FDDA2ADCAA2D00CEC302 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9FE0FDDB2ADCAA5200CEC302 /* word.json */,
+				9F1616522ADCB0EC00AB0C31 /* Words.swift */,
+				9F1616502ADCAFAB00AB0C31 /* CodableBundle.swift */,
+				9FFFAF862ADCB2240061AE72 /* Constant.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9F483BA02A4B78F30085FA9D /* SimplyOrganizations */ = {
+		9F483BA02A4B78F30085FA9D /* Medict */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F483BAF2A4B78F50085FA9D /* Build configuration list for PBXNativeTarget "SimplyOrganizations" */;
+			buildConfigurationList = 9F483BAF2A4B78F50085FA9D /* Build configuration list for PBXNativeTarget "Medict" */;
 			buildPhases = (
 				9F483B9D2A4B78F30085FA9D /* Sources */,
 				9F483B9E2A4B78F30085FA9D /* Frameworks */,
@@ -85,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = SimplyOrganizations;
+			name = Medict;
 			productName = SimplyOrganizations;
-			productReference = 9F483BA12A4B78F30085FA9D /* SimplyOrganizations.app */;
+			productReference = 9F483BA12A4B78F30085FA9D /* Medict.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9F483B9C2A4B78F30085FA9D /* Build configuration list for PBXProject "SimplyOrganizations" */;
+			buildConfigurationList = 9F483B9C2A4B78F30085FA9D /* Build configuration list for PBXProject "Medict" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F483BA02A4B78F30085FA9D /* SimplyOrganizations */,
+				9F483BA02A4B78F30085FA9D /* Medict */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F483BAC2A4B78F50085FA9D /* Preview Assets.xcassets in Resources */,
+				9FE0FDDC2ADCAA5200CEC302 /* word.json in Resources */,
 				9F483BA92A4B78F50085FA9D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,8 +173,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FFFAF872ADCB2240061AE72 /* Constant.swift in Sources */,
 				9F483BA72A4B78F30085FA9D /* ContentView.swift in Sources */,
-				9F483BA52A4B78F30085FA9D /* SimplyOrganizationsApp.swift in Sources */,
+				9F7AD93A2ABD045900868BAF /* MedictApp.swift in Sources */,
+				9F65DE672AE1FE030071C7F0 /* RowView.swift in Sources */,
+				9F1616512ADCAFAB00AB0C31 /* CodableBundle.swift in Sources */,
+				9F65DE692AE1FFCA0071C7F0 /* TermListView.swift in Sources */,
+				9F1616532ADCB0EC00AB0C31 /* Words.swift in Sources */,
+				9F7AD93C2ABD068600868BAF /* SearchHome.swift in Sources */,
+				9F65DE6B2AE2001E0071C7F0 /* TermDetail.swift in Sources */,
 				9F9B6AB72A4CAABD007F36E6 /* Details.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +310,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimplyOrganizations/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Meddict/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -298,7 +338,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimplyOrganizations/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Meddict/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -322,7 +362,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9F483B9C2A4B78F30085FA9D /* Build configuration list for PBXProject "SimplyOrganizations" */ = {
+		9F483B9C2A4B78F30085FA9D /* Build configuration list for PBXProject "Medict" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F483BAD2A4B78F50085FA9D /* Debug */,
@@ -331,7 +371,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F483BAF2A4B78F50085FA9D /* Build configuration list for PBXNativeTarget "SimplyOrganizations" */ = {
+		9F483BAF2A4B78F50085FA9D /* Build configuration list for PBXNativeTarget "Medict" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F483BB02A4B78F50085FA9D /* Debug */,

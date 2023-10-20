@@ -1,0 +1,41 @@
+[
+    {
+    "id": 1,
+    "name": "Acute",
+    "type": ,
+    "def": ,
+    "syn": ,
+    "origin": {
+                "name": "",
+                "url": ""
+    },
+    "image": "",
+    "info": "",
+    },
+    {
+    "id": 2,
+    "name": "Beningn",
+    "type": ,
+    "def": ,
+    "syn": ,
+    "origin": {
+                "name": "",
+                "url": ""
+    },
+    "image": "",
+    "info": "",
+    },
+    {
+    "id": 3,
+    "name": "Malignant",
+    "type": ,
+    "def": ,
+    "syn": ,
+    "origin": {
+                "name": "",
+                "url": ""
+    },
+    "image": "",
+    "info": "",
+    },
+]

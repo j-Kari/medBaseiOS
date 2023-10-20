@@ -2,14 +2,14 @@
 //  ContentView.swift
 //  SimplyOrganizations
 //
-//  Created by Kiran Kari on 6/27/23.
+//  Created by Jahnavi Kari on 6/27/23.
 //
 
 import Foundation
 import SwiftUI
 
 struct ContentView: View {
-    
+
     public struct NGO: Hashable, Identifiable {
         let name: String
         let desc: String
@@ -25,7 +25,7 @@ struct ContentView: View {
     
     public let Regions: [Areas] = [
         Areas(name: "COMMONLY MISUNDERSTOOD",
-              NGOs: [NGO(name: "Acute", desc: ":)"),
+              NGOs: [
                      NGO(name: "Benign", desc: ":)"),
                      NGO(name: "Malignant", desc: ":)"),
                      NGO(name: "Blood Swab", desc: ":)"),
@@ -61,15 +61,7 @@ struct ContentView: View {
                            NGO(name: "Ultrasound", desc: ":)"),
                            ]),
     ]
-  /*
-    Mastectomy,
-    Myocardial infarction,
-    Occult blood screen,
-    Remission,
-    Sepsis,
-    Spinal tap,
-    Thrombosis,
-    Ultrasound */
+
 
     @State private var singleSelection: UUID?
     
