@@ -16,8 +16,6 @@
 		9F65DE692AE1FFCA0071C7F0 /* TermListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F65DE682AE1FFCA0071C7F0 /* TermListView.swift */; };
 		9F65DE6B2AE2001E0071C7F0 /* TermDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F65DE6A2AE2001E0071C7F0 /* TermDetail.swift */; };
 		9F7AD93A2ABD045900868BAF /* MedictApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AD9392ABD045900868BAF /* MedictApp.swift */; };
-		9F7AD93C2ABD068600868BAF /* SearchHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AD93B2ABD068600868BAF /* SearchHome.swift */; };
-		9F9B6AB72A4CAABD007F36E6 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B6AB62A4CAABD007F36E6 /* Details.swift */; };
 		9FE0FDDC2ADCAA5200CEC302 /* word.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FE0FDDB2ADCAA5200CEC302 /* word.json */; };
 		9FFFAF872ADCB2240061AE72 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFFAF862ADCB2240061AE72 /* Constant.swift */; };
 /* End PBXBuildFile section */
@@ -33,8 +31,6 @@
 		9F65DE682AE1FFCA0071C7F0 /* TermListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermListView.swift; sourceTree = "<group>"; };
 		9F65DE6A2AE2001E0071C7F0 /* TermDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermDetail.swift; sourceTree = "<group>"; };
 		9F7AD9392ABD045900868BAF /* MedictApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedictApp.swift; sourceTree = "<group>"; };
-		9F7AD93B2ABD068600868BAF /* SearchHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHome.swift; sourceTree = "<group>"; };
-		9F9B6AB62A4CAABD007F36E6 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
 		9FE0FDDB2ADCAA5200CEC302 /* word.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = word.json; sourceTree = "<group>"; };
 		9FFFAF862ADCB2240061AE72 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,8 +67,6 @@
 			children = (
 				9F7AD9392ABD045900868BAF /* MedictApp.swift */,
 				9F483BA62A4B78F30085FA9D /* ContentView.swift */,
-				9F7AD93B2ABD068600868BAF /* SearchHome.swift */,
-				9F9B6AB62A4CAABD007F36E6 /* Details.swift */,
 				9F65DE662AE1FE030071C7F0 /* RowView.swift */,
 				9F65DE682AE1FFCA0071C7F0 /* TermListView.swift */,
 				9F65DE6A2AE2001E0071C7F0 /* TermDetail.swift */,
@@ -180,9 +174,7 @@
 				9F1616512ADCAFAB00AB0C31 /* CodableBundle.swift in Sources */,
 				9F65DE692AE1FFCA0071C7F0 /* TermListView.swift in Sources */,
 				9F1616532ADCB0EC00AB0C31 /* Words.swift in Sources */,
-				9F7AD93C2ABD068600868BAF /* SearchHome.swift in Sources */,
 				9F65DE6B2AE2001E0071C7F0 /* TermDetail.swift in Sources */,
-				9F9B6AB72A4CAABD007F36E6 /* Details.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,16 +6,15 @@
 //
 
 import SwiftUI
-import SDWebImageSwiftUI //address
 
 struct RowView: View {
     // variables
-    var term: Words
+    var term: Word
     
     var body: some View {
         
         HStack {
-            WebImage(url: URL(string: term.image))
+            Image(term.image)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 50, height: 50, alignment: .center)

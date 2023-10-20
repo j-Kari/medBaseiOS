@@ -2,15 +2,15 @@
     {
     "id": 1,
     "name": "Acute",
-    "type": ,
-    "def": ,
-    "syn": ,
+    "type": "a",
+    "def": "b",
+    "syn": "d",
     "origin": {
                 "name": "",
                 "url": ""
     },
-    "image": "",
-    "info": "",
+    "image": "acute",
+    "info": "acute is acute",
     },
     {
     "id": 2,

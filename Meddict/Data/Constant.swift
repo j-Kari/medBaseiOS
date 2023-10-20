@@ -8,4 +8,4 @@
 import SwiftUI
 
 // data
-let wordi: [Words] = Bundle.main.decode("word.json")
+let Words: [Word] = Bundle.main.decode("word.json")

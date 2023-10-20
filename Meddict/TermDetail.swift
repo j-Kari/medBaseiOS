@@ -7,18 +7,17 @@
 // REFERENCE: https://blog.learncodeonline.in/navigation-list-view-with-local-json-swiftui
 
 import SwiftUI
-import SDWebImageSwiftUI // address
 
 struct TermDetail: View {
     //  variables
-    var term: Words
+    var term: Word
     
     var body: some View {
         List {
             Section(header: Text("Terms"), content: {
                 HStack{
                     Spacer()
-                    WebImage(url: URL(string: term.iamge)) // address
+                    Image(term.image)
                         .resizable()
                         .scaledToFit()
                         .frame(width: 150, height: 150, alignment: .center)
@@ -28,9 +27,9 @@ struct TermDetail: View {
             })
             
            Section(header: Text("Information"), content: { //address
-               TInfoRow(icon: "hare", title: "Species", value: term.species)
-               TInfoRow(icon: "eyes", title: "Gender", value: term.species)
-               TInfoRow(icon: "waveform.path.ecg.rectangle", title: "Status", value: term.status)
+               TInfoRow(icon: "hare", title: "Species", value: term.type)
+               TInfoRow(icon: "eyes", title: "Gender", value: term.type)
+               TInfoRow(icon: "waveform.path.ecg.rectangle", title: "Status", value: term.syn)
                TInfoRow(icon: "map", title: "Location", value: term.location.name)
                TInfoRow(icon: "paperplane", title: "Origin", value: term.origin.name)
             })
