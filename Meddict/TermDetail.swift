@@ -27,11 +27,11 @@ struct TermDetail: View {
             })
             
            Section(header: Text("Information"), content: { //address
-               TInfoRow(icon: "hare", title: "Species", value: term.type)
-               TInfoRow(icon: "eyes", title: "Gender", value: term.type)
-               TInfoRow(icon: "waveform.path.ecg.rectangle", title: "Status", value: term.syn)
-               TInfoRow(icon: "map", title: "Location", value: term.location.name)
-               TInfoRow(icon: "paperplane", title: "Origin", value: term.origin.name)
+               TInfoRow(icon: "folder", title: "Type", value: term.type)
+               TInfoRow(icon: "map", title: "Origin", value: term.origin.name)
+               TInfoRow(icon: "paperplane", title: "Related Terms", value: term.syn)
+               TInfoRow(icon: "doc.plaintext", title: "Definition", value: term.def)
+               TInfoRow(icon: "magnifyingglass", title: "Additional Information", value: term.info)
             })
             }
             .listStyle(GroupedListStyle())
@@ -53,6 +53,7 @@ struct TInfoRow: View {
             Text(title)
                 .font(.body)
                 .foregroundColor(.accentColor)
+                .padding()
             Spacer()
             Text(value)
         }

@@ -10,9 +10,6 @@ import SwiftUI
 struct TermListView: View {
     // variables
     var body: some View {
-        List(Words,id: \.id) { term in
-            RowView(term: term)
-        }
         NavigationView {
             List(Words, id: \.id) { term in
                 NavigationLink(destination:

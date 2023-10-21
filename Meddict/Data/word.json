@@ -1,41 +1,15 @@
 [
     {
-    "id": 1,
-    "name": "Acute",
-    "type": "a",
-    "def": "b",
-    "syn": "d",
-    "origin": {
-                "name": "",
-                "url": ""
-    },
-    "image": "acute",
-    "info": "acute is acute",
-    },
-    {
-    "id": 2,
-    "name": "Beningn",
-    "type": ,
-    "def": ,
-    "syn": ,
-    "origin": {
-                "name": "",
-                "url": ""
-    },
-    "image": "",
-    "info": "",
-    },
-    {
-    "id": 3,
-    "name": "Malignant",
-    "type": ,
-    "def": ,
-    "syn": ,
-    "origin": {
-                "name": "",
-                "url": ""
-    },
-    "image": "",
-    "info": "",
+        "id": 1,
+        "name": "Acute",
+        "type": "Adjective",
+        "def": "Used to describe any medical condition that is sudden and severe upon onset",
+        "syn": "recent, subacute",
+        "origin": {
+                    "name": "Latin/Late Middle English",
+                    "url": "hi"
+        },
+        "image": "acute",
+        "info": "-",
     },
 ]

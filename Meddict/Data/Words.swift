@@ -15,12 +15,13 @@ struct Word: Codable, Identifiable {
     let syn: String
     struct Origin: Codable {
         let name: String
+        let url: String
     }
     let origin: Origin
-    struct Location: Codable {
+    /*struct Location: Codable {
         let name: String
     }
-    let location: Location
+    let location: Location*/
     let image: String
     let info: String
    
