@@ -23,7 +23,7 @@ struct RowView: View {
             VStack(alignment: .leading) {
                 Text(term.name)
                     .font(.title3)
-                Text(term.def) //change cuz def makes no sense
+                Text(term.type) //change cuz def makes no sense
                     .font(.footnote)
                     .foregroundColor(.secondary)
             }

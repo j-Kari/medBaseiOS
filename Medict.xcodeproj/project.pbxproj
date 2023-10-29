@@ -15,6 +15,7 @@
 		9F65DE672AE1FE030071C7F0 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F65DE662AE1FE030071C7F0 /* RowView.swift */; };
 		9F65DE692AE1FFCA0071C7F0 /* TermListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F65DE682AE1FFCA0071C7F0 /* TermListView.swift */; };
 		9F65DE6B2AE2001E0071C7F0 /* TermDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F65DE6A2AE2001E0071C7F0 /* TermDetail.swift */; };
+		9F701F212AEECA88002F7773 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F701F202AEECA87002F7773 /* SearchView.swift */; };
 		9F7AD93A2ABD045900868BAF /* MedictApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7AD9392ABD045900868BAF /* MedictApp.swift */; };
 		9FE0FDDC2ADCAA5200CEC302 /* word.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FE0FDDB2ADCAA5200CEC302 /* word.json */; };
 		9FFFAF872ADCB2240061AE72 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFFAF862ADCB2240061AE72 /* Constant.swift */; };
@@ -30,6 +31,7 @@
 		9F65DE662AE1FE030071C7F0 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		9F65DE682AE1FFCA0071C7F0 /* TermListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermListView.swift; sourceTree = "<group>"; };
 		9F65DE6A2AE2001E0071C7F0 /* TermDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermDetail.swift; sourceTree = "<group>"; };
+		9F701F202AEECA87002F7773 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		9F7AD9392ABD045900868BAF /* MedictApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedictApp.swift; sourceTree = "<group>"; };
 		9FE0FDDB2ADCAA5200CEC302 /* word.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = word.json; sourceTree = "<group>"; };
 		9FFFAF862ADCB2240061AE72 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				9F483BA62A4B78F30085FA9D /* ContentView.swift */,
 				9F65DE662AE1FE030071C7F0 /* RowView.swift */,
 				9F65DE682AE1FFCA0071C7F0 /* TermListView.swift */,
+				9F701F202AEECA87002F7773 /* SearchView.swift */,
 				9F65DE6A2AE2001E0071C7F0 /* TermDetail.swift */,
 				9FE0FDDA2ADCAA2D00CEC302 /* Data */,
 				9F483BA82A4B78F50085FA9D /* Assets.xcassets */,
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FFFAF872ADCB2240061AE72 /* Constant.swift in Sources */,
+				9F701F212AEECA88002F7773 /* SearchView.swift in Sources */,
 				9F483BA72A4B78F30085FA9D /* ContentView.swift in Sources */,
 				9F7AD93A2ABD045900868BAF /* MedictApp.swift in Sources */,
 				9F65DE672AE1FE030071C7F0 /* RowView.swift in Sources */,

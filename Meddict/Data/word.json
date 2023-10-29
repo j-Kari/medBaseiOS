@@ -7,9 +7,374 @@
         "syn": "recent, subacute",
         "origin": {
                     "name": "Latin/Late Middle English",
-                    "url": "hi"
+                    "url": "-"
         },
         "image": "acute",
         "info": "-",
     },
+    {
+        "id": 2,
+        "name": "Angina",
+        "type": "",
+        "def": "Intermittent chest pain normally caused by a lack of blood flow to the heart",
+        "syn": "",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "-",
+    },
+    {
+        "id": 3,
+        "name": "Appendectomy",
+        "type": "",
+        "def": "Surgical procedure to remove the appendix, which is a small vestigal (unecessary) pocket at the end of your large intestine",
+        "syn": "",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "Generally occurs to remove an infected appendix. Is a minor & common procedure. Depending on the case, antibiotics or other surgeries are used instead.",
+    },
+    {
+        "id": 4,
+        "name": "Benign",
+        "type": "",
+        "def": "Harmless; not becoming cancerous",
+        "syn": "Malignant",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "Typically refers to a tumor (an uncontrolled growth of cells). A benign tumor means that the tumor is not affecting the person's livelihood, but still should be removed as soon as possible before that tumor becomes dangerous.",
+    },
+    {
+        "id": 5,
+        "name": "Biopsy",
+        "type": "",
+        "def": "Examination of tissue removed from a living body in order to reveal the prescence/cause/extent of a disease",
+        "syn": "",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "-",
+    },
+    {
+        "id": 6,
+        "name": "Blood Culture",
+        "type": "",
+        "def": "Labratory test to check for bacteria or fungi in a person's blood",
+        "syn": "Blood Swab",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "-",
+    },
+    {
+        "id": 7,
+        "name": "Blood Swab",
+        "type": "",
+        "def": "Labratory test to check for diseases",
+        "syn": "Blood Culture",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "-",
+    },
+    {
+        "id": 8,
+        "name": "Chronic",
+        "type": "",
+        "def": "Long-term or recurring",
+        "syn": "Acute",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "Opposite of acute",
+    },
+    {
+        "id": 9,
+        "name": "Coronary Bypass",
+        "type": "",
+        "def": "Surgical procedure to relieve a blocked artery. Arteries are the tiny tubes in which blood can flow to all parts of your body.",
+        "syn": "Arteries, ",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "Generally used to create a path around a blockage due to blood clots or high cholesterol",
+    },
+    {
+        "id": 10,
+        "name": "Dialysis",
+        "type": "",
+        "def": "A procedure that cleans the blood of any toxins or impurities. A person has kidneys, which typically remove all the toxins that the blood collects and then you urinate those toxins out. Sometimes, the kidneys cannot do their job and so you go to a special treatment place. They remove your blood, filter out the toxins, and then put the clean blood back into your body.",
+        "syn": "",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "This is a minor operation/procedure. You will usually have to revisit the treatment place a few more times until your blood is fully clean again. ",
+    },
+    {
+        "id": 11,
+        "name": "Edema",
+        "type": "",
+        "def": "The medical term for fluid build-up in body tissue. ",
+        "syn": "",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "It can affect a small area or a larger one, and is most common in the skin.",
+    },
+    {
+        "id": 12,
+        "name": "Embolism",
+        "type": "",
+        "def": "A blockage in the artery by something such as a blood clot or an air bubble in the blood. This blockage stops blood flow to that part of the body, which can be very dangerous.",
+        "syn": "Pulmonary Embolism",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "A pulmonary embolism is a blockage in one of the lungs' arteries. This clot usually starts in the legs and moves with the blood stream into the lung.",
+    },
+    {
+        "id": 13,
+        "name": "Fusion",
+        "type": "",
+        "def": "A surgical procedure to fuse to bones together (so they don't move).",
+        "syn": "Spinal Fushion",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "A spinal fusion is a very common example of such. It is a common surgery in which rods and screws stabilize the spine, aiding with chronic back pain.",
+    },
+    {
+        "id": 14,
+        "name": "Hysterectomy",
+        "type": "",
+        "def": "A surgical procedure in which the uterus is removed.",
+        "syn": "",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "After this procedure, women can no longer get pregnant or have menstrual periods. This procedure is usually done to deal with cancers in the uterus or a quickly bleeding uterus.",
+    },
+    {
+        "id": 15,
+        "name": "Hypertension",
+        "type": "",
+        "def": "When a person's blood pressure (BP, the amount of force the heart uses to pump blood) is too high. This can cause a lot of issues, including heart attacks, strokes, or aneurysms.",
+        "syn": "Hypotension",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "This is typically marked by a BP of 140/90 and above.",
+    },
+    {
+        "id": 16,
+        "name": "Hypotension",
+        "type": "",
+        "def": "When a person's blood pressure (BP, the amount of force the heart uses to pump blood) is too low. This can cause a lot of issues, including blurry vision, fainting, fatigue.",
+        "syn": "Hypertension",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "This is typically marked by a BP of 90/60 and below.",
+    },
+    {
+        "id": 17,
+        "name": "Intravenous",
+        "type": "",
+        "def": "Refers to the delivering of medicine through a needle in a person's veins. ",
+        "syn": "Intubation",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "It is used to deliver medicine or other fluids throughout the body quickly.",
+    },
+    {
+        "id": 18,
+        "name": "Intubation",
+        "type": "",
+        "def": "Medical procedure in which the doctor puts a tube into the patient's airway, usually because the patient cannot breathe or is struggling to breathe on their own.",
+        "syn": "Intravenous",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "Tube can be inserted through the mouth or nose",
+    },
+    {
+        "id": 19,
+        "name": "Lesion",
+        "type": "",
+        "def": "An area of clearly damaged tissue inside or outside the body. Its usually caused by damage to the body in that area. ",
+        "syn": "Blister, Tumour, Mole",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "There are two types: benign (not cancer) and malignant (cancer). Freckles, moles, and blisters are examples, and tumors are one of the more dangerous examples of a lesion. ",
+    },
+    {
+        "id": 20,
+        "name": "Lumbar Puncture",
+        "type": "",
+        "def": "A medical procedure in which a needle is placed in between the bones of the lower spine. This is used to diagnose or treat medical conditions.",
+        "syn": "Spinal Tap",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "Used in diagnosing many different nervous system (your brain, spine, and nerves) illnesses.",
+    },
+    {
+        "id": 21,
+        "name": "Malignant",
+        "type": "",
+        "def": "Harmful",
+        "syn": "Benign",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "Usually referring to a tumor, malignant means that a tumor is growing, and could be spreading to other areas of the body. These tumors are dangerous to the patient, and require treatment for it as soon as possible",
+    },
+    {
+        "id": 22,
+        "name": "Angina",
+        "type": "",
+        "def": "Surgical procedure in which breast tissue, and skin is removed.",
+        "syn": "",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "This surgery is typically performed as a means of removing cancerous breast tissue, but can also be performed on women who are at high risk for breast cancer",
+    },
+    {
+        "id": 23,
+        "name": "Myocardial Infection",
+        "type": "Heart Attack, Infection",
+        "def": "This happens when the heart doesn't get enough blood flow, typically because there is a blockage that prevents blood from getting back to the heart. ",
+        "syn": "",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "Refers to a heart attack",
+    },   {
+        "id": 24,
+        "name": "Occult Blood Screen",
+        "type": "",
+        "def": "A test that looks for occult (hidden) blood in stool (feces, poop) samples. This test looks for blood in stool that you cannot see with the naked eye. If this test returns positive, then it shows bleeding in the intestines or stomach. This bleeding could be a sign of colorectal cancer, ulcers, or polyps.",
+        "syn": "",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "Positive results (blood in stool) could be a sign of colorectal cancer, ulcers, or polyps.",
+    },
+    {
+        "id": 25,
+        "name": "Remission",
+        "type": "",
+        "def": "Good thing: it means the disappearance of symptoms that the patient has. It doesn't mean that the patient is cured of the illness, but the patient is on the right track to healing.",
+        "syn": "",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "-",
+    },
+    {
+        "id": 26,
+        "name": "Sepsis",
+        "type": "",
+        "def": "Life-threatening emergency. When exposed to an extreme infection from outside the body, the body's immune system reacts very extremely. Sepsis could lead to tissue damage, organ failure, or even death if not tended to quickly.",
+        "syn": "",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "-",
+    },
+    {
+        "id": 27,
+        "name": "Spinal Tap",
+        "type": "Lumbar Puncture",
+        "def": "A medical procedure in which a needle is placed in between the bones of the lower spine. This is used to diagnose or treat medical conditions. It helps in diagnose many different nervous system (your brain, spine, and nerves) illnesses. ",
+        "syn": "",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "-",
+    },
+    {
+        "id": 28,
+        "name": "Thrombosis",
+        "type": "",
+        "def": "The forming of a blood clot in a blood vessel of the heart.",
+        "syn": "",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "This prevents the normal blood flow, which can result in things as serious as stroke or heart attack.",
+    },
+    {
+        "id": 29,
+        "name": "Ultrasound",
+        "type": "",
+        "def": "An ultrasound is a test that uses sound waves to create pictures of organs, tissues, and other structures inside the body. During an ultrasound, a probe emits special sound waves that bounce off things inside the body. The probe picks up the sound waves, and the returning waves are used to make pictures called sonograms. ",
+        "syn": "Biopsy, Blood Swab",
+        "origin": {
+                    "name": "",
+                    "url": "-"
+        },
+        "image": "-",
+        "info": "Used to diagnose issues quickly and easily, evaluate biopsy tissue more effectively, examine an unborn child (fetus) in pregnant women, evaluate the brain, hips, and spine in infants.",
+    },
+    
+    
 ]
