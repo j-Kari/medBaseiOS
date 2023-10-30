@@ -7,37 +7,34 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CreditView: View {
     var body: some View {
         
             NavigationStack {
-              
                 ZStack {
                     Color("BgColour")
                         .ignoresSafeArea()
                 VStack {
-                /*    Image("period1")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)*/
-                    Text ("Welcome to Meddict!")
-                        .font(.callout)
-                        .foregroundColor(Color("Acc1"))
-                        .padding([.leading, .bottom])
-                        .fontDesign(.monospaced)
-                        .fontWeight(.bold)
-                    Text ("Terms & their defintions can be found by clicking on the 'Terms' tab.")
-                        .font(.callout)
-                        .foregroundColor(Color.black)
-                        .padding(.bottom)
-                        .fontDesign(.serif)
-                        .multilineTextAlignment(.center)
-                    Text ("Learn more about the app, future expansions, & the creators by clicking on the 'About' tab.")
+                    Text ("Images: Jahnavi Kari")
                         .font(.callout)
                         .foregroundColor(Color.black)
                         .padding(.bottom)
                         .fontDesign(.serif)
                         .multilineTextAlignment(.center)
                     
+                    Text ("Definitions: Jahnavi Kari & Sanat Rao")
+                        .font(.callout)
+                        .foregroundColor(Color.black)
+                        .padding(.bottom)
+                        .fontDesign(.serif)
+                        .multilineTextAlignment(.center)
+                    
+                    Text ("App Code: Jahnavi Kari & Sanat Rao")
+                        .font(.callout)
+                        .foregroundColor(Color.black)
+                        .padding(.bottom)
+                        .fontDesign(.serif)
+                        .multilineTextAlignment(.center)
                 }
                 .padding()
                 
@@ -46,7 +43,7 @@ struct ContentView: View {
                     NavigationLink(destination: ContentView()) {
                         Text("Home")
                             .fontWeight(.bold)
-                            .foregroundColor(Color("Acc1"))
+                            .foregroundColor(Color.gray)
                     }
                     
                     NavigationLink(destination: TermListView()) {
@@ -61,28 +58,26 @@ struct ContentView: View {
                             .foregroundColor(Color.gray)
                         
                     }
-                    
                     NavigationLink(destination: CreditView()) {
                         Text("Credits")
                             .fontWeight(.bold)
-                            .foregroundColor(Color.gray)
+                            .foregroundColor(Color("Acc1"))
                     }
                 }
                 }
-                .navigationTitle("Home")
+                .navigationTitle("Credits")
                 .navigationBarTitleDisplayMode(.inline)
                 
             }
             }
-            .foregroundColor(Color(UIColor.systemPink))
             .ignoresSafeArea()
         }
     }
     
 
 
-struct ContentView_Previews: PreviewProvider {
+struct CreditView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        CreditView()
     }
 }

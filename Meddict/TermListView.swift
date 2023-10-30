@@ -17,8 +17,12 @@ struct TermListView: View {
                     TermDetail(term: term)) {
                     RowView(term: term)
                 }
+                    .fontWeight(.bold)
+                    .foregroundColor(Color("Acc2"))
+                    .fontDesign(.serif)
             }
             .navigationTitle("Terms")
+            
         }
     }
 }

@@ -7,11 +7,13 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AboutView: View {
+    // variables
+    @State var text = "Medical terminology is confusing for all. It's important for patients, medical students, and medical professionals, and the general public, to understand medical terminology to ensure that everyone understands modern-day medicine. That's why we created this app as we found ourselves struggling to understand the terms that we saw in our everyday lives with defintions often even more confusing than the terms themselves."
+    @State var name = "More"
     var body: some View {
         
             NavigationStack {
-              
                 ZStack {
                     Color("BgColour")
                         .ignoresSafeArea()
@@ -19,25 +21,20 @@ struct ContentView: View {
                 /*    Image("period1")
                         .resizable()
                         .aspectRatio(contentMode: .fit)*/
-                    Text ("Welcome to Meddict!")
+                    Text(text)
                         .font(.callout)
-                        .foregroundColor(Color("Acc1"))
+                        .foregroundColor(Color.black)
                         .padding([.leading, .bottom])
                         .fontDesign(.monospaced)
-                        .fontWeight(.bold)
-                    Text ("Terms & their defintions can be found by clicking on the 'Terms' tab.")
-                        .font(.callout)
-                        .foregroundColor(Color.black)
-                        .padding(.bottom)
-                        .fontDesign(.serif)
-                        .multilineTextAlignment(.center)
-                    Text ("Learn more about the app, future expansions, & the creators by clicking on the 'About' tab.")
-                        .font(.callout)
-                        .foregroundColor(Color.black)
-                        .padding(.bottom)
-                        .fontDesign(.serif)
-                        .multilineTextAlignment(.center)
+                        .padding()
                     
+                    Button(name) {
+                        text = "-"
+                        name = "Click 'About' to return to previous screen."
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .tint(Color("Acc3"))
+                    .foregroundColor(Color.white)
                 }
                 .padding()
                 
@@ -46,7 +43,7 @@ struct ContentView: View {
                     NavigationLink(destination: ContentView()) {
                         Text("Home")
                             .fontWeight(.bold)
-                            .foregroundColor(Color("Acc1"))
+                            .foregroundColor(Color.gray)
                     }
                     
                     NavigationLink(destination: TermListView()) {
@@ -58,10 +55,9 @@ struct ContentView: View {
                     NavigationLink(destination: AboutView()) {
                         Text("About")
                             .fontWeight(.bold)
-                            .foregroundColor(Color.gray)
+                            .foregroundColor(Color("Acc1"))
                         
                     }
-                    
                     NavigationLink(destination: CreditView()) {
                         Text("Credits")
                             .fontWeight(.bold)
@@ -69,20 +65,19 @@ struct ContentView: View {
                     }
                 }
                 }
-                .navigationTitle("Home")
+                .navigationTitle("About")
                 .navigationBarTitleDisplayMode(.inline)
                 
             }
             }
-            .foregroundColor(Color(UIColor.systemPink))
             .ignoresSafeArea()
         }
     }
     
 
 
-struct ContentView_Previews: PreviewProvider {
+struct AboutView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        AboutView()
     }
 }
