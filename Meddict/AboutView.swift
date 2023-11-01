@@ -2,7 +2,7 @@
 //  LaunchView.swift
 //  Medict
 //
-//  Created by Kiran Kari on 10/30/23.
+//  Created by Jahnavi Kari on 10/30/23.
 //
 
 import SwiftUI

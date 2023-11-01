@@ -2,7 +2,7 @@
 //  TermListView.swift
 //  Medict
 //
-//  Created by Kiran Kari on 10/19/23.
+//  Created by Jahnavi Kari on 10/19/23.
 //
 
 import SwiftUI

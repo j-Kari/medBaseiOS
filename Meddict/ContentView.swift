@@ -2,7 +2,7 @@
 //  LaunchView.swift
 //  Medict
 //
-//  Created by Kiran Kari on 10/30/23.
+//  Created by Jahnavi Kari on 10/30/23.
 //
 
 import SwiftUI
@@ -19,7 +19,7 @@ struct ContentView: View {
                 /*    Image("period1")
                         .resizable()
                         .aspectRatio(contentMode: .fit)*/
-                    Text ("Welcome to Meddict!")
+                    Text ("Welcome to Medbase!")
                         .font(.callout)
                         .foregroundColor(Color("Acc1"))
                         .padding([.leading, .bottom])

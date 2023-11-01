@@ -2,9 +2,8 @@
 //  TermDetail.swift
 //  Medict
 //
-//  Created by Kiran Kari on 10/19/23.
+//  Created by Jahnavi Kari on 10/19/23.
 //
-// REFERENCE: https://blog.learncodeonline.in/navigation-list-view-with-local-json-swiftui
 
 import SwiftUI
 

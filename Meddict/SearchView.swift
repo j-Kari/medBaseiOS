@@ -1,5 +1,8 @@
 //
 //  SearchView.swift
+//  Medict
+//
+//  Created by Jahnavi Kari on 10/19/23.
 //
 //
 

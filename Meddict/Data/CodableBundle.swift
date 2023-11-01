@@ -2,7 +2,7 @@
 //  CodableBundle.swift
 //  Medict
 //
-//  Created by Kiran Kari on 10/15/23.
+//  Created by Jahnavi Kari on 10/15/23.
 //
 
 import Foundation
